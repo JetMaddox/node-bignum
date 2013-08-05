@@ -15,6 +15,9 @@
       "include_dirs": [
         "<(nodedir)/deps/openssl/openssl/include",
         "<(openssl_config_path)"
+      ],
+      "libraries" : [
+        "C:/OpenSSL-Win64/lib/*.lib"
       ]
     }
   ]
